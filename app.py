@@ -3,3 +3,4 @@ from PIL import Image
 
 st.title("Vapoi?")
 image = Image.open('vapoi.jpg')
+st.image(image, caption='Vapoi')
