@@ -23,9 +23,9 @@ with col1:
 with col2:
   st.subheader("Esta es la segunda columna")
   modo = st.radio("Que modalidad es la principalen tu interfaz", ('visual','auditiva', 'tactil'))
-  if modo == "visual":
+  if modo == 'visual':
     st.write('la vista es fundamental para tu interfaz')
-  if modo == "auditiva":
+  if modo == 'auditiva':
         st.write('la audicion es fundamental para tu interfaz')
- if modo == "tactil":
+ if modo == 'tactil':
         st.write('El tacto es fundamental para tu interfaz')
