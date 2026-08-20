@@ -27,5 +27,5 @@ with col2:
     st.write('la vista es fundamental para tu interfaz')
   if modo == 'auditiva':
         st.write('la audicion es fundamental para tu interfaz')
- if modo == 'tactil':
+  if modo == 'tactil':
         st.write('El tacto es fundamental para tu interfaz')
