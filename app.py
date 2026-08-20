@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL import image
+from PIL import Image
 
 st.title("Vapoi?")
-image = image.open('vapoi.jpg')
+image = Image.open('vapoi.jpg')
